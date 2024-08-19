@@ -1,0 +1,38 @@
+.body{
+    background-color: #a6a6a6;
+    height: 900px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 700px;
+    position: relative;
+}
+.top_navbar{
+    display: flex;
+}
+.logo{
+    color: black;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    font-size: 20px;
+    font-family: cursive;
+}
+.nav_icon_1{
+    height: 45px;
+    width: 45px;
+    margin-left: 20px;
+    margin-left: 390px;
+}
+.nav_icon_2{
+    height: 45px;
+    width: 45px;
+    margin-left: 20px;
+}
+.nav_icon_3{
+    height: 45px;
+    width: 45px;
+    margin-left: 20px;
+}
