@@ -1,7 +1,13 @@
 .background{
-    background-color: #FFC6C6;
+    background-color: #FFEBD4;
     height: 900px;
     width: 600px;
     padding: 10px;
     margin-left: 80vh;
+    font-family: cursive;
+}
+.text{
+    font-size: 20px;
+    color: #F0A8D0;
+    font-weight: bold;
 }
