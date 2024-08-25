@@ -1,6 +1,6 @@
 .background{
     background-color: #FFEBD4;
-    height: 1550px;
+    height: 1560px;
     width: 850px;
     padding: 10px;
     margin-left: 80vh;
@@ -11,7 +11,7 @@
     display: flex;
 }
 .text{
-    font-size: 20px;
+    font-size: 30px;
     color: #F0A8D0;
     font-weight: bold;
     margin-right: 520px;
@@ -20,6 +20,7 @@
     height: 45px;
     width: 45px;
     margin: 10px;
+    
 }
 .search-btn{
     height: 50px;
@@ -65,7 +66,7 @@
     font-size: 25px;
 }
 .chat-time{
-    margin-left: 340px;
+    margin-left: 550px;
 }
 .chat-message {
     color: black;
