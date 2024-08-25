@@ -1,6 +1,6 @@
 .background{
     background-color: #FFEBD4;
-    height: 900px;
+    height: 1550px;
     width: 600px;
     padding: 10px;
     margin-left: 80vh;
@@ -42,6 +42,7 @@
     width: 100px;
     border-radius: 50%;
     border: 2px solid black;
+    object-fit: cover;
 }
 .chat-list {
     width: 550px;
@@ -56,35 +57,14 @@
     padding: 10px;
     border-bottom: 1px solid #333;
 }
-
-.chat-item:last-child {
-    border-bottom: none;
-}
-
-.chat-info {
-    flex-grow: 1;
-}
-
-.chat-name-time {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .chat-name {
     font-weight: bold;
     margin-left: 25px;
     font-size: 25px;
 }
-.chat-date{
+.chat-time{
     margin-left: 280px;
 }
-
-.chat-time {
-    font-size: 0.9em;
-    color: #888;
-}
-
 .chat-message {
     color: black;
     font-size: 0.9em;
