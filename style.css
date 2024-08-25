@@ -6,8 +6,18 @@
     margin-left: 80vh;
     font-family: cursive;
 }
+.top-navbar{
+    display: flex;
+}
 .text{
     font-size: 20px;
     color: #F0A8D0;
     font-weight: bold;
+    margin-right: 360px;
+}
+
+.top-icon{
+    height: 30px;
+    width: 30px;
+    margin: 10px;
 }
