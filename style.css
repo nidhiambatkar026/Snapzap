@@ -15,9 +15,21 @@
     font-weight: bold;
     margin-right: 360px;
 }
-
 .top-icon{
     height: 30px;
     width: 30px;
     margin: 10px;
+}
+.search-btn{
+    height: 50px;
+    width: 580px;
+    border-radius: 30px;
+    text-align: start;
+    font-family: cursive;
+    font-size: 15px;
+    background-color: #FFC6C6;
+    border: 3px solid #F7B5CA;
+}
+.search-btn:hover{
+    box-shadow: 5px 5px 4px 2px #F0A8D0; 
 }
