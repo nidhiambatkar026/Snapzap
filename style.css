@@ -1,6 +1,6 @@
 .background{
     background-color: #FFEBD4;
-    height: 1560px;
+    height: 1590px;
     width: 850px;
     padding: 10px;
     margin-left: 80vh;
@@ -23,7 +23,8 @@
     
 }
 .search-btn{
-    height: 50px;
+    position: fixed;
+    height: 60px;
     width: 800px;
     border-radius: 30px;
     text-align: start;
@@ -48,6 +49,7 @@
     object-fit: cover;
 }
 .chat-list {
+    margin-top: 100px;
     width: 750px;
     background-color: #FFEBD4;
     border-radius: 10px;
@@ -91,19 +93,31 @@
     width: 70px;
 }
 .side-symbols{
-    position: fixed;
-    bottom: 50px;
-    right: 550px;
+   
     flex-direction: column;
     justify-content: space-evenly;
+    position: relative;
 }
 .side-box-symbols{
     margin-bottom: 10px;
 }
-.fixed-symbols{
+.fixed-symbol_1{
     height: 55px;
     width: 50px;
+    position: absolute;
+    bottom: 90px;
+    right: 30px;
 }
-.fixed-symbols:hover{
+.fixed-symbol_2{
+    height: 55px;
+    width: 50px;
+    position: absolute;
+    bottom: 10px;
+    right: 30px;
+}
+.fixed-symbol_1:hover{
+    transform: scale(1.1);
+}
+.fixed-symbol_2:hover{
     transform: scale(1.1);
 }
